@@ -2,26 +2,93 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+@layer base {
+  h1 {
+    font-family: var(--font-montserrat);
+    font-size: 3.75rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  h2 {
+    font-family: var(--font-montserrat);
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 300;
+    text-transform: capitalize;
+    &.bold {
+      font-weight: 700;
+    }
+  }
+  h3 {
+    font-family: var(--font-montserrat);
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    &.light {
+      font-weight: 300;
+    }
+  }
+  h4 {
+    font-family: var(--font-poppins);
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+  }
+  h5 {
+    font-family: var(--font-montserrat);
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  h6 {
+    font-family: var(--font-montserrat);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.5rem;
+    text-transform: capitalize;
+  }
+  p {
+    font-family: var(--font-openSans);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 165.5%; /* 26.48px */
+    &.label {
+      font-family: var(--font-poppins);
+      font-size: 0.875rem;
+      font-style: normal;
+      font-weight: 600;
+      &.light {
+        font-size: 0.75rem;
+        font-style: normal;
+        font-weight: 400;
+      }
+    }
+    &.title {
+      font-family: var(--font-montserrat);
+      font-size: 1.25rem;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+    }
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+@media only screen and (max-width: 640px) {
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+}
+
+.ReactCollapse--collapse {
+  transition: height 500ms;
+  -webkit-transition: height 500ms;
+  -moz-transition: height 500ms;
+  -ms-transition: height 500ms;
+  -o-transition: height 500ms;
 }
