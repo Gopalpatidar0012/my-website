@@ -629,15 +629,24 @@ export const projectData = [
       },
     ],
   },
-  // {
-  //   id: "6",
-  //   name: "Lintas",
-  //   description: "",
-  //   technology: "",
-  //   roles: [
-  //     { id: "", point: "" },
-  //     { id: "", point: "" },
-  //     { id: "", point: "" },
-  //   ],
-  // },
+  {
+    id: "6",
+    name: "Lintas",
+    description:
+      "Lintas Dashboard and App a project designed to streamline the process of assigning advertising tasks to vendors in different cities. This app facilitates the assignment of tasks, such as capturing photos or videos of advertising posters, to vendors based on specific cities and timeframes. Vendors receive notifications for their assigned tasks and are required to complete them within the specified city and time constraints. The dashboard serves as a centralized platform for managing and monitoring these tasks efficiently. Overall, the goal is to enhance the coordination and efficiency of advertising activities across various locations through a user-friendly and organized system.",
+    technology: "",
+    roles: [
+      {
+        id: "1",
+        point:
+          "Task Handling: Manage tasks that have been missed or not completed within the specified timeframe.",
+      },
+      {
+        id: "2",
+        point:
+          "Filter Creation: Develop and implement filters to streamline task assignment based on specific criteria (e.g., location, priority, etc.).",
+      },
+      { id: "", point: "" },
+    ],
+  },
 ];

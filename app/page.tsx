@@ -1,6 +1,5 @@
-
 import Banner from "@/components/Banner";
-import About from "@/components/CBAboutUs";
+import About from "@/components/AboutUs";
 import Footer from "@/components/Footer";
 import Image from "next/image";
 

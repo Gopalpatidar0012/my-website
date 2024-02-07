@@ -6,8 +6,8 @@
 // ==============================================
 
 import React from "react";
-import CBAboutusTitle from "./CBAboutusTitle";
-import CBAboutMissionCard from "./CBAboutMissionCard";
+import CBAboutusTitle from "./AboutusTitle";
+import CBAboutMissionCard from "./AboutMissionCard";
 import { CBAboutUsMissionType } from "@/types/index";
 import Image from "next/image";
 import Link from "next/link";

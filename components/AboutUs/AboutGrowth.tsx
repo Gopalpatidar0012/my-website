@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "../../public/butterfly.png";
 import Image from "next/image";
-import CBAboutusTitle from "./CBAboutusTitle";
+import CBAboutusTitle from "./AboutusTitle";
 import { CBAboutGrowthType } from "@/types/index";
 import useIsMobile from "@/hooks/useIsMobile";
 

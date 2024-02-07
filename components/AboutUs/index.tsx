@@ -7,11 +7,11 @@
 
 "use client";
 import React from "react";
-import CBAboutUSBanner from "./CBAboutUSBanner";
-import CBAboutUsMission from "./CBAboutUsMission";
+import CBAboutUSBanner from "./AboutUSBanner";
+import CBAboutUsMission from "./AboutUsMission";
 import { CardDataType, WorkDataType } from "@/types/index";
-import CBAboutExplore from "./CBAboutExplore";
-import CBAboutGrowth from "./CBAboutGrowth";
+import CBAboutExplore from "./AboutExplore";
+import CBAboutGrowth from "./AboutGrowth";
 
 const data: CardDataType[] = [
   {

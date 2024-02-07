@@ -1,5 +1,5 @@
 import React from "react";
-import CBAboutusTitle from "./CBAboutusTitle";
+import CBAboutusTitle from "./AboutusTitle";
 import { ButtonSize, ButtonVariant, CBAboutExploreType } from "@/types/index";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { useRouter } from "next/navigation";

@@ -5,12 +5,12 @@ import React from "react";
 const page = () => {
   return (
     <div>
-      {/* <Project
-        name={projectData[].name}
+      <Project
+        name={projectData[4].name}
         des={projectData[4].description}
         tech={projectData[4].technology}
         roles={projectData[4].roles}
-      /> */}
+      />
     </div>
   );
 };
