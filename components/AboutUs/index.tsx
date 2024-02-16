@@ -104,6 +104,10 @@ const workData: WorkDataType[] = [
     id: "10",
     title: "Visual studio code",
   },
+  {
+    id: "11",
+    title: "React native",
+  },
 ];
 
 const About = () => {
@@ -120,7 +124,9 @@ const About = () => {
       <section id="skills">
         <CBAboutGrowth title="" data={workData} />
       </section>
-      <CBAboutExplore titlePartOne="Explore" titlePartTwo=" my profile" />
+      <section id="connected">
+        <CBAboutExplore titlePartOne="Explore" titlePartTwo=" my profile" />
+      </section>
     </div>
   );
 };

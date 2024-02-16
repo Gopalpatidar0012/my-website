@@ -41,8 +41,7 @@ const DesktopNavigationCard = ({ navLinks }: NavLinkType) => {
             title="Get Connected"
             variant={ButtonVariant.SECONDARY}
             size={ButtonSize.MEDIUM}
-            // onClick={() => push("/#cb-contact-form")}
-            onClick={() => {}}
+            onClick={() => push("/#connected")}
           />
         </li>
       </ul>
